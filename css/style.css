@@ -1,0 +1,414 @@
+* {
+    font-family: 'Poppins';
+}
+.custom-navbar {
+    padding: 20px;
+}
+
+.custom-navbar a:hover {
+    color: black;
+}
+
+.custom-brand {
+    font-size: 30px;
+    color: black;
+    font-weight: 700;
+}
+
+.custom-brand .fa.fa-book {
+    color: #ee6a13;
+    font-size: 30px;
+}
+
+.header-block {
+    padding: 20px;
+}
+
+.header-block-left {
+    justify-content: flex-start;
+}
+
+.header-block-left h1 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.header-block-left p {
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 5px;
+    color: #444;
+}
+
+.custom-button .btn-buy {
+    background-color: #FF6600;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    border-radius: 50px 50px 50px 50px;
+    padding: 15px 50px;
+    text-align: center;
+    transition: 0.5s ease;
+}
+
+.custom-button .btn-buy:hover {
+    color: #ffffff;
+    background-color: #ee6a13;
+    transition: 0.5s ease;
+}
+
+.custom-button .btn-learn {
+    background-color: white;
+    font-size: 20px;
+    color: #ee6a13;
+    border-radius: 50px 50px 50px 50px;
+    padding: 15px 50px;
+    text-align: center;
+    border: 3px solid #ee6a13;
+    margin-left: 20px;
+    font-weight: 600;
+    transition: 0.5s ease;
+}
+
+.custom-button .btn-learn:hover {
+    color:white;
+    background-color: #FF6600;
+    border-color: #FF6600;
+    font-weight: 600;
+    transition: 0.5s ease;
+}
+
+.header-right {
+    box-shadow: 0 19px 88px rgba(179, 177, 177, 0.3), 0 15px 32px rgba(107, 105, 105, 0.22);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.header-right h1 {
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.header-right h2 {
+    font-size: 70px;
+    font-weight: 700;
+    color: #f7863a;
+}
+
+.header-right h5 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #222222;
+}
+
+.header-right img {
+    height: 400px;
+    width: 400px;
+    justify-content: center;
+}
+
+.header-right-footer a {
+    color: #222222;
+    font-weight: 600;
+}
+
+.bio-left img {
+    object-fit: cover;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.header-left-paragraph p {
+    font-size: 18px;
+    font-style: italic;
+    color: #777777;
+    font-weight: 500;
+    border-left: 5px solid #f09b63;
+    background-color: #fafafa;
+    padding: 30px;
+    align-items: center;
+}
+
+.bio-right {
+    font-size: 18px;
+    color: #666666;
+}
+
+.mainBody {
+    background-color: #f9f9f9;
+    text-align: center;
+    margin: 0 auto;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.mainDiv_1 {
+    margin: 0 auto;
+}
+
+.mainDiv_1 h1 {
+  padding-top: 80px;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.mainDiv_1 p {
+  margin-top: 1rem;
+  font-size: 20px;
+  font-weight: 500;
+  color: #777777;
+}
+
+.services {
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px 3px rgba(0,0,0,.05);
+    padding: 20px;
+    margin: 20px;
+    background-color: #ffffff;
+    border-left: 5px solid #ee6a13;
+}
+
+.single_service_top .fa.fa-code-fork, .fa.fa-jsfiddle, .fa.fa-commenting-o, .fa.fa-code, .fa.fa-desktop, .fa.fa-usd {
+    font-size: 40px;
+    color: #ee6a13;
+}
+
+.single_service_top h4 {
+    margin-top: 5px;
+    font-weight: 600;
+}
+
+.single_service_deatails p {
+    color: #666666;
+    font-weight: 300;
+}
+
+.mainMiddle h1 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.feature-lists .fa.fa-check-circle {
+    font-size: 20px;
+    color: #7DC8B3;
+    margin-right: 15px;
+}
+
+.feature-lists p {
+    color: #555555;
+    font-size: 20px;
+    text-align: start;
+}
+
+.want-this-book {
+    justify-content: center;
+}
+
+.want-this-book .btn-book {
+    background-color: #FF6600;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    border-radius: 50px 50px 50px 50px;
+    padding: 15px 50px;
+    transition: 0.5s ease;
+}
+
+.want-this-book .btn-book:hover {
+    color: #ffffff;
+    background-color: #ee6a13;
+    transition: 0.5s ease;
+}
+
+.book-for h1 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.book-for p {
+    font-size: 20px;
+    color: #666666;
+}
+
+.who-this-book-for {
+    list-style: none;
+    background-color: #7DC8B3;
+    width: 70%;
+}
+
+.software .fa.fa-user {
+    font-size: 30px;
+    /*justify-content: start;*/
+}
+
+.departments .fa.fa-user {
+    font-size: 30px;
+    color: #7DC8B3;
+}
+
+.departments h5 {
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.departments p {
+    font-size: 15px;
+    color: #666666;
+    font-weight: 600;
+}
+
+.book-preview {
+    background-color: white;
+    border-radius: 10px;
+    margin: 0 auto;
+    box-sizing: 0px 3px 4px 15px white;
+}
+
+.book-preview h3 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.book-preview p {
+    font-size: 20px;
+    color: #666666;
+}
+
+.preview {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.preview input {
+    border: 1px solid #f7f7f7;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.preview input:focus {
+    background-color: #f9f9f9;
+    box-shadow: none;
+    outline: none;
+}
+
+.btn-send {
+    background-color: #FF6600;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    transition: 0.5s ease;
+}
+
+.btn-send:hover {
+    color: #ffffff;
+    background-color: #ee6a13;
+    transition: 0.5s ease;
+}
+
+.book-reviews h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.book-reviews p {
+    font-size: 20px;
+    color: #777777;
+    font-weight: 700;
+}
+
+.comments {
+    box-shadow: 3px 4px 15px 5px rgba(0,0,0,.05);
+    border-radius: 15px;
+}
+
+.comments img {
+    object-fit: cover;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.comments p {
+    font-style: italic;
+}
+
+.comment-right {
+    font-size: 15px;
+    color: #666666;
+}
+
+.about-area {
+    background-color: #FF6600;
+    padding: 50px;
+}
+
+.about-area img {
+    object-fit: cover;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+.about-area h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+}
+
+.about-area p {
+    margin: 0 auto;
+    color: white;
+    font-size: 18px;
+    text-align: left;
+    width: 50%;
+    font-weight: 300;
+}
+
+.about-area h4 {
+    color: white;
+    font-weight: 700;
+}
+
+#social #container ul {
+    list-style: none;
+    padding: 30px;
+}
+
+#social #container a {  
+    font-size: 2em;
+    border-radius: 50%;
+    background-color: #ca5d14;
+    color: white;
+    line-height: 2em;
+    width: 2em;
+    height: 2em;
+    text-align: center;
+    display: inline-block;
+    list-style: none;
+    transition: 0.5s;
+    margin: 10px;
+}
+
+#social #container a:hover {
+    transition: 0.5s;
+    color: #ca5d14;
+    background-color: white;
+}
+
+.footer {
+    padding: 30px;
+    font-size: 20px;
+}
+
+.footer .fa.fa-heart {
+    color: red;
+    font-size: 30px;
+}
+
+.footerparagraph {
+    font-weight: 700;
+}
