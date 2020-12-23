@@ -1,1 +1,1 @@
-https://neil-seu.github.io/Dev-Book/
+Just a static website with bootstrap 4
